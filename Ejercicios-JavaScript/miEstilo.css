@@ -14,8 +14,8 @@ h1{
 }
 
 .div-conver{
-    background: #FFFFFF;
-    border: 2px solid #000000;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     max-width: 430px;
     text-align: center;
@@ -25,8 +25,9 @@ h1{
 }
 
 .color-div{
-    background: #feab5a;
+    background: rgb(254, 171, 90);
     max-width: 500px;
+    display: none;
 }
 
 .operacionesMat input{
@@ -36,16 +37,16 @@ h1{
 /*Formulario*/
 input{
     border-radius: 2px;
-    box-shadow: 5px 5px 10px #7a8aac;
+    box-shadow: 5px 5px 10px rgb(122, 138, 172);
 }
 
 input:focus {
-    border-color: #19ac67;
+    border-color: rgb(25, 172, 99);
 }
 
 .ejer{
-    border:1px solid #000000;
-    background: rgba(240, 255, 105, 0.47);
+    border:1px solid rgb(0, 0, 0);
+    background: rgba(236, 252, 99, 0.47);
 }
 
 ul {
@@ -53,13 +54,13 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(85, 85, 85);
 }
 
 li a {
     display: block;
-    color: #000;
+    color: rgb(0, 0, 0);
     padding: 8px 16px;
     text-decoration: none;
     font-family: 'Inknut Antiqua', serif;
@@ -68,7 +69,7 @@ li a {
 
 li {
     text-align: center;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgb(85, 85, 85);
 }
 
 li:last-child {
@@ -76,11 +77,11 @@ li:last-child {
 }
 
 li a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(73, 187, 83);
+    color: rgb(255, 255, 255);
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
 }
